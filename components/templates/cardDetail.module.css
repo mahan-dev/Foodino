@@ -1,0 +1,194 @@
+.container {
+    font-weight: 500;
+}
+
+.container>h3:first-child {
+    width: fit-content;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 3px solid #265f8e;
+}
+
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.cardContainer>img {
+    width: 250px;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.2rem;
+    
+}
+.details>p {
+    color: #265f8e;
+}
+
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.location>span {
+    font-size: 0.9rem;
+}
+
+.discount{
+    color: #ff0000;
+}
+
+.priceContainer{
+    display: flex;
+    align-items: center;
+}
+
+.priceOff{
+    color: #ffffff;
+    background: #ff0000;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+.price{
+    color: black;
+    text-decoration:line-through;
+}
+
+.introduction{
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: rgb(54, 54, 54);
+}
+
+
+.food_detail{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.food_detail h3{
+    font-size: 1.3rem;
+    color: #265f8e;
+    
+}
+
+.food_detail ul {
+    margin-top: 1rem;
+}
+
+.food_detail ul li{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.food_detail span{ 
+    color: #6c6c6c;
+}
+
+.food_detail ul li::before{
+    content: "●";
+    font-size: 0.8rem;
+    color: #265f8e;
+}
+
+.ingredient{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.ingredient h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #265f8e;
+}
+
+.ingredient ul{
+    margin-top: 1rem;
+}
+
+.ingredient li{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.ingredient ul li::before{
+    content: "●";
+    font-size: 0.8rem;
+    color: #265f8e;
+}
+
+.recipe{
+    margin-top: 3rem;
+}
+.recipe h3{
+    color: #265f8e;
+    font-size: 1.3rem;
+}
+.recipe ul {
+    margin-top: 1rem;
+}
+
+.recipe li {
+    display: flex;
+    align-items: center;
+}
+
+.recipe ul li span {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.even {
+    background: #265f8e;
+}
+
+.odd {
+    background: #4a7497;
+}
+
+.odd , .even {
+    color: white;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:576px) {
+    .cardContainer{
+        justify-content: center;
+    }
+}
+
+
+

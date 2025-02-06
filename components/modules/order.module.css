@@ -1,0 +1,17 @@
+.container{
+
+}
+
+.container h3{
+    color: #265f8e;
+}
+
+.container ul{
+    margin-top: 1rem;
+}
+
+.container li::before {
+    content: "●";
+    color: #265f8e;
+    padding-right: 0.3rem;
+}

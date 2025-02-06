@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #265f8e;
+}
+
+.container h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.container_iconWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+    gap: 1rem;
+    place-content: center space-between;
+    grid-auto-rows: 1fr;
+    margin: 2rem 0;
+}
+
+.icon_wrapper{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    
+    box-shadow: rgba(6, 115, 174, 0.44) 0 0 12px;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+@media only screen and (max-width:700px) {
+    .container_iconWrapper{
+        place-content: center;
+    }
+}

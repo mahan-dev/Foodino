@@ -1,0 +1,25 @@
+.container {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+    text-align: center;
+    gap: 1.5rem;
+    place-content: center space-between;
+}
+
+.container a {
+    
+    padding: 0.5rem 2rem;
+    box-shadow: rgba(6, 115, 174, 0.283) 0 0 12px;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+@media only screen and (max-width:513px) {
+    .container{
+        place-content: center;
+    }
+}

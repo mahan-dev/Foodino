@@ -1,0 +1,40 @@
+
+
+.header {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.header > a {
+    color: #265f8e;
+}
+
+.header > h2 {
+    font-weight: 500;
+}
+.header > ul {
+    display: flex;
+    margin-left: auto;
+    gap: 1rem;
+    
+}
+
+.main{
+    max-width: 900px;
+    margin: 1rem auto;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.footer{
+    display: flex;
+    padding: 0 0.5rem;
+    justify-content: center;
+    background: #265f8e;
+    color: white;
+}
+
+

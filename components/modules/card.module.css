@@ -1,0 +1,88 @@
+.containerCard {
+    display: flex;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+.containerCard img {
+    position: relative;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+.containerCard>a {
+    text-align: center;
+    padding: 0.2rem 0;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    background: #265f8e;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.containerCard>a:hover {
+    opacity: 0.8;
+}
+
+.detail {
+    margin: 0.4rem 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail>p {
+    color: #265f8e;
+}
+
+.cardLocation {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.discount{
+    color: red;
+}
+
+.discountBadge {
+    background: red;
+    padding: 0 0.5rem;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
